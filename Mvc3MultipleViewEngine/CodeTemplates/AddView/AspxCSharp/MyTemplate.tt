@@ -1,0 +1,8 @@
+﻿<#@ template language="C#" HostSpecific="True" #>
+<#@ output Extension=".html" #>
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>

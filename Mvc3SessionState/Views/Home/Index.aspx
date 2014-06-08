@@ -10,7 +10,7 @@
  
     <%: Html.TextBox("message") %>
  
-    <a href="#">Gönder</a>
+    <input type="submit" value="Submit"/>
 
 <% } %>
 </asp:Content>

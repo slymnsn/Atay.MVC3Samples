@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc3SessionState", "Mvc3SessionState\Mvc3SessionState.csproj", "{427EEC60-01A2-4529-BF2B-FE37AC2086F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc3IoC", "Mvc3IoC\Mvc3IoC.csproj", "{63C4977C-D7CB-407F-B7BB-C3776A3FDADD}"

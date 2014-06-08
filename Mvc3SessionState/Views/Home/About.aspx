@@ -7,6 +7,6 @@
 <asp:Content ID="aboutContent" ContentPlaceHolderID="MainContent" runat="server">
    <h3>
      
-     <% ViewData.Model.ToString(); %>
+     <%: ViewData["NedirTv"] %>
    </h3>
 </asp:Content>

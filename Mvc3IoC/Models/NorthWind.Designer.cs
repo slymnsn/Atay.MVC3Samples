@@ -12,6 +12,7 @@ using System.ComponentModel;
 using System.Data.EntityClient;
 using System.Data.Objects;
 using System.Data.Objects.DataClasses;
+using System.Linq;
 using System.Runtime.Serialization;
 using System.Xml.Serialization;
 
@@ -87,6 +88,7 @@ namespace Mvc3IoC.Models
         private ObjectSet<Employee> _Employees;
 
         #endregion
+
         #region AddTo Methods
     
         /// <summary>
@@ -98,11 +100,11 @@ namespace Mvc3IoC.Models
         }
 
         #endregion
+
     }
-    
 
     #endregion
-    
+
     #region Entities
     
     /// <summary>
@@ -131,6 +133,7 @@ namespace Mvc3IoC.Models
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -569,6 +572,7 @@ namespace Mvc3IoC.Models
         partial void OnPhotoPathChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -633,8 +637,10 @@ namespace Mvc3IoC.Models
         }
 
         #endregion
+
     }
 
     #endregion
+
     
 }
